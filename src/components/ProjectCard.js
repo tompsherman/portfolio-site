@@ -1,14 +1,21 @@
 import React from 'react'
+import data from "./data"
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
     return (
         <div>
-            {/* map over project db */}
-            <h2>Project Title</h2>
-            <h3>Project Tagline</h3>
-            <p>Project Description</p>
-            <a href="#">Project Link</a>
-            <img src="#" alt="alt" />
+            {props.data.map(project=>{
+                return(
+                   <>
+                        <h2>{project.title}</h2>
+                        <h3>{project.tagline}</h3>
+                        <p>{project.description}</p>
+                        <a href={project.link}>{project.link}</a>
+                        <img src="#" alt="alt" />
+                   </>
+                )
+            })}
+            
         </div>
     )
 }
