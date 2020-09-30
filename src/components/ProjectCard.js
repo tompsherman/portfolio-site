@@ -10,7 +10,7 @@ const ProjectCard = (props) => {
                         <h2>{project.title}</h2>
                         <h3>{project.tagline}</h3>
                         <p>{project.description}</p>
-                        <a href={project.link}>{project.link}</a>
+                        <a href={project.url}>{project.url}</a>
                         <img src="#" alt="alt" />
                    </>
                 )
