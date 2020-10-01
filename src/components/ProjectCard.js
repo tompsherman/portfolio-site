@@ -26,13 +26,19 @@ const ProjectCard = (props) => {
 
 const StyledDiv = styled.div`
 
+    *{
+        border: 1px solid red;
+    }
     .project-container{
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
         width: 100%;
+        height: 50vh;
     }
     .project{
-        width:50%;
+        width:25%;
         padding: 1%;
         margin: 1%;
         border: 1px solid black;
