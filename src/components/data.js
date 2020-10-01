@@ -28,10 +28,18 @@ export default [
         image: ""
     },
     {
+        title: "MoonCat Comedy Club",
+        tagline: "Bringing stand-up comedy to the community, and a community to stand-up comedy",
+        description: "MoonCat Comedy Club is a 501(c)3 nonprofit organization dedicated to bringing stand-up comedy to the local community and creating a local community for stand-up comics. FOunded in a garage in Delaware in 2015, MooncAt Comedy has since produced 'The Longest Running Comedy Open Mic on the Delmarva Peninsula', the 'Who is the Funniest Person on Delmarva?' competition, and numerous other events featuring over 100 local, regional and nationally-touring comedians in over 200 shows in bars, restaurants, and even NASA bases.",
+        url: "www.mooncatcomedy.com",
+        image: ""
+
+    },
+    {
         title: "",
         tagline: "",
         description: "",
         url: "",
-
+        image: ""
     }
 ]
