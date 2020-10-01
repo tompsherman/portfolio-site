@@ -26,5 +26,12 @@ export default [
         description: "David Luna is a prolific artist, videographer, cartoonist, and creator based in Millsboro, Delaware. His art has been featured in magazines, commercials, and festivals across teh Eastern seaboard. A master of style, form and function, Luna's art is bound to delight everyone.",
         url: "",
         image: ""
+    },
+    {
+        title: "",
+        tagline: "",
+        description: "",
+        url: "",
+        
     }
 ]
