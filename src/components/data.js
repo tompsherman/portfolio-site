@@ -3,7 +3,7 @@ export default [
         title: "The New Calendar",
         tagline: "Using math, science, and logic to save time itself.",
         description: "The new Calendar is a revolutionary re-invention of the annual calendar system, employing metrological principles in order to practically, coherently, and logically measure the year. Developed in 2017 shortly after the discovery of the 5th season of the year, The New Calendar is the only calendar system that observes complete units that compound in unison with each other finally creating a cohesive measurement system to divide our year.",
-        url: "thenewcalendar.com",
+        url: "https://www.thenewcalendar.com",
         image: ""
     },
     {
@@ -17,7 +17,7 @@ export default [
         title: "Property Litigator Lawyers",
         tagline: "Virginia's eminent domain law firm",
         description: `Property Litigator Lawyers is a law firm fighting against government seizures of private property in the Commonwealth of Virginia. Based in Norfolk, PLL has been awarded "Virginia's Top Lawyers" in 2019 and 2020`,
-        url: "lawfirmjvs.com",
+        url: "https://www.lawfirmjvs.com",
         image: ""
     },
     {
@@ -31,7 +31,7 @@ export default [
         title: "MoonCat Comedy Club",
         tagline: "Bringing stand-up comedy to the community, and a community to stand-up comedy",
         description: "MoonCat Comedy Club is a 501(c)3 nonprofit organization dedicated to bringing stand-up comedy to the local community and creating a local community for stand-up comics. FOunded in a garage in Delaware in 2015, MooncAt Comedy has since produced 'The Longest Running Comedy Open Mic on the Delmarva Peninsula', the 'Who is the Funniest Person on Delmarva?' competition, and numerous other events featuring over 100 local, regional and nationally-touring comedians in over 200 shows in bars, restaurants, and even NASA bases.",
-        url: "www.mooncatcomedy.com",
+        url: "https://www.mooncatcomedy.com",
         image: ""
 
     },
