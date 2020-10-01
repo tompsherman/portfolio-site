@@ -13,6 +13,7 @@ const ProjectCard = (props) => {
                                 <h3>{project.tagline}</h3>
                                 <p>{project.description}</p>
                                 <a href={project.url}>{project.url}</a>
+                                <br></br>
                                 <img src="#" alt="alt" />
                             </div>
                    </>
