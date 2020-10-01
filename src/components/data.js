@@ -23,7 +23,7 @@ export default [
     {
         title: "David Luna's portfolio page",
         tagline: "The Beloved Moon Wrestles with God",
-        description: "David Luna is a prolific artist, videographer, cartoonist, and creator based in Millsboro, Delaware. His art has been featured in magazines, commercials, and festivals across teh Eastern seaboard. A master of style, form and function, Luna's art is bound to delight everyone.",
+        description: "David Luna is a prolific artist, videographer, cartoonist, and creator based in Millsboro, Delaware. His art has been featured in magazines, commercials, and festivals across the Eastern seaboard. A master of style, form and function, Luna's art is bound to delight everyone.",
         url: "",
         image: ""
     },
@@ -32,6 +32,6 @@ export default [
         tagline: "",
         description: "",
         url: "",
-        
+
     }
 ]
