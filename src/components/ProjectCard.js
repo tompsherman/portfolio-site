@@ -5,7 +5,7 @@ const ProjectCard = (props) => {
   return (
     <StyledDiv>
       <div class="project-container">
-        {props.data.map((project) => {
+        {props.projdata.map((project) => {
           return (
             <>
               <div class="project">
@@ -36,6 +36,7 @@ const StyledDiv = styled.div`
     width: 100%;
     height: 50vh;
   }
+
   .project {
     width: 25%;
     padding: 1%;
