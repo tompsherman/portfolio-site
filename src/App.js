@@ -3,13 +3,14 @@ import { Route, Switch, useHistory } from "react-router-dom";
 import "./App.css";
 
 import ProjectCard from "./components/ProjectCard";
+import Blog from "./components/Blog";
 // import Home from "./components/Home";
 
 import projdata from "./data/projdata";
 import webdata from "./data/webdata";
 import journodata from "./data/journodata";
-import comdata from "./data/comedata";
-import Blog from "./components/Blog";
+import comdata from "./data/comdata";
+import Home from "./components/Home";
 
 const App = () => {
   const history = useHistory();
@@ -61,8 +62,7 @@ const App = () => {
         <Route path="/">
           <div>
             <br></br>
-            this is the home page
-            <br></br>
+            <Home />
             <br></br>
             <button onClick={routeToJourno}>Journalist</button>
             <button onClick={routeToWebDev}>WebDev</button>
