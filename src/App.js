@@ -8,6 +8,8 @@ import ProjectCard from "./components/ProjectCard";
 import projdata from "./data/projdata";
 import webdata from "./data/webdata";
 import journodata from "./data/journodata";
+import comdata from "./data/comedata";
+import Blog from "./components/Blog";
 
 const App = () => {
   const history = useHistory();
@@ -20,6 +22,9 @@ const App = () => {
   };
   const routeToProjects = () => {
     history.push(`/projects`);
+  };
+  const routeToComedy = () => {
+    history.push(`/comedy`);
   };
   const routeToBlog = () => {
     history.push(`/blog`);
@@ -34,6 +39,7 @@ const App = () => {
       <button onClick={routeToJourno}>Journalist</button>
       <button onClick={routeToWebDev}>WebDev</button>
       <button onClick={routeToProjects}>Projects</button>
+      <button onClick={routeToComedy}>Comedy</button>
       <button onClick={routeToBlog}>Blog</button>
       <button onClick={routeToHome}>Home</button>
       <Switch>
@@ -46,10 +52,11 @@ const App = () => {
         <Route path="/projects">
           <ProjectCard projdata={projdata} />
         </Route>
+        <Route path="/comedy">
+          <ProjectCard projdata={comdata} />
+        </Route>
         <Route path="/blog">
-          <div>
-            <h2>this is the blog page.</h2>
-          </div>
+          <Blog />
         </Route>
         <Route path="/">
           <div>
