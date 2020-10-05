@@ -21,6 +21,9 @@ const App = () => {
   const routeToProjects = () => {
     history.push(`/projects`);
   };
+  const routeToBlog = () => {
+    history.push(`/blog`);
+  };
   const routeToHome = () => {
     history.push(`/`);
   };
@@ -31,6 +34,7 @@ const App = () => {
       <button onClick={routeToJourno}>Journalist</button>
       <button onClick={routeToWebDev}>WebDev</button>
       <button onClick={routeToProjects}>Projects</button>
+      <button onClick={routeToBlog}>Blog</button>
       <button onClick={routeToHome}>Home</button>
       <Switch>
         <Route path="/journalist">
@@ -42,6 +46,11 @@ const App = () => {
         <Route path="/projects">
           <ProjectCard projdata={projdata} />
         </Route>
+        <Route path="/blog">
+          <div>
+            <h2>this is the blog page.</h2>
+          </div>
+        </Route>
         <Route path="/">
           <div>
             <br></br>
@@ -51,6 +60,7 @@ const App = () => {
             <button onClick={routeToJourno}>Journalist</button>
             <button onClick={routeToWebDev}>WebDev</button>
             <button onClick={routeToProjects}>Projects</button>
+            <button onClick={routeToBlog}>Blog</button>
             <button onClick={routeToHome}>Home</button>
           </div>
         </Route>
