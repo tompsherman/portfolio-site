@@ -21,6 +21,9 @@ const App = () => {
   const routeToProjects = () => {
     history.push(`/projects`);
   };
+  const routeToHome = () => {
+    history.push(`/`);
+  };
 
   return (
     <div className="App">
@@ -28,7 +31,7 @@ const App = () => {
       <button onClick={routeToJourno}>Journalist</button>
       <button onClick={routeToWebDev}>WebDev</button>
       <button onClick={routeToProjects}>Projects</button>
-
+      <button onClick={routeToHome}>Home</button>
       <Switch>
         <Route path="/journalist">
           <ProjectCard projdata={journodata} />
@@ -39,9 +42,18 @@ const App = () => {
         <Route path="/projects">
           <ProjectCard projdata={projdata} />
         </Route>
-        {/* <Route path="/">
-          <Home />
-        </Route> */}
+        <Route path="/">
+          <div>
+            <br></br>
+            this is the home page
+            <br></br>
+            <br></br>
+            <button onClick={routeToJourno}>Journalist</button>
+            <button onClick={routeToWebDev}>WebDev</button>
+            <button onClick={routeToProjects}>Projects</button>
+            <button onClick={routeToHome}>Home</button>
+          </div>
+        </Route>
       </Switch>
     </div>
   );
