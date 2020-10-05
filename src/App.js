@@ -15,13 +15,19 @@ const App = () => {
   const routeToJourno = () => {
     history.push(`/journalist`);
   };
+  const routeToWebDev = () => {
+    history.push(`/webdev`);
+  };
+  const routeToProjects = () => {
+    history.push(`/projects`);
+  };
 
   return (
     <div className="App">
       <h1>Tom Sherman's portfolio page:</h1>
       <button onClick={routeToJourno}>Journalist</button>
-      <button>WebDev</button>
-      <button>Projects</button>
+      <button onClick={routeToWebDev}>WebDev</button>
+      <button onClick={routeToProjects}>Projects</button>
 
       <Switch>
         <Route path="/journalist">
